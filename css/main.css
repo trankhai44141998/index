@@ -1,0 +1,365 @@
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
+}
+.Wrapper{
+	width: 100%;
+	height: 100vh;
+	background: #CB8586;
+	margin: 0px;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background: #000000;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+}
+.nen1{
+	width: 15%;
+	height: 100%;
+;
+	float: left;
+}
+.nen1 ul {
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+}
+.nen1 ul li{
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	
+}
+.nen1 ul li a i{
+	color:white;
+}
+.nen2{
+	width: 85%;
+	height: 100%;
+
+	float: right;
+}
+.menu1{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.menu1 ul{
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+}
+.menu1 ul li{
+	float: left;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+.menu1 ul li a{
+	color: white;
+	text-decoration: none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	
+}
+.logo{
+	width:30%;
+	height: 100%;
+	background: black;
+	float: left;
+	text-align: center;
+}
+.logo img{
+	width: 100px;
+}
+.menu2{
+	width: 40%;
+	height: 100%;
+	
+	float: right;
+}
+.trai{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.trai ul{
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+	
+}
+.trai ul li{
+	float: left;
+	margin-left: 70px;
+	margin-top: 30px;
+}
+.trai ul li a{
+	color: white;
+	text-decoration: none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+}
+.phai{
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+.phai ul{
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+}
+.phai ul li{
+	float: right;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.phai ul li a i{
+	color:white;
+}
+.trang1{
+	width: 100%;
+	height: 100vh;
+	background: #DAEA46;
+}
+.left{
+	width: 50%;
+	height: 100vh;
+	background:#B1ABA8;
+	float: left;
+}
+.left img{
+	width: 50%;
+	height: 70%;
+	padding-left:25%;
+	padding-top:20%;
+	
+}
+.right{
+	width: 50%;
+	height: 100vh;
+	background: #B4A294;
+	float: right;
+}
+.right h1{
+	margin-top: 200px;
+	text-align: center;
+	font-size: 50px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.nenright p{
+	text-align: center;
+	margin-top: 10px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	line-height: 25px;
+	padding: 10%
+	
+}
+.nenright ul{
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+}
+.nenright ul li{
+	text-align: center;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.nenright ul li a{
+ text-decoration: none;
+font-size: 20px;
+color: #715933;
+}
+.nenright ul li a:hover{
+	font-size: 50px;
+	
+}
+
+.trang2{
+	width: 100%;
+	height: 100vh;
+	background:#3C90BF;
+	
+	
+}
+.hangtren{
+	width: 100%;
+	height: 50%;
+	background: #FFFFFF;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+		
+}
+.o{
+	width: 25%;
+	height:60%;
+	background:#FFFFFF;
+	float: left;
+	margin: 10px;
+	
+}
+.hangduoi{
+	width: 100%;
+	height: 50%;
+	background: #FFFFFF;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+	
+
+}
+.o img{
+	width: 100%;
+	height: 100%
+}
+
+.trang3{
+	width: 100%;
+	height: 100vh;
+	background: #B4A294;
+}
+.nenchu{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #B1ABA8;
+}
+.nenvideo{
+	width: 45%;
+	height: 50%;
+	background: #B1ABA8;
+	float: right;
+	margin-right: 50px;
+	margin-top: 250px;
+	
+}
+.nenvideo img{
+	width: 100%;
+	height: 100%;
+}
+
+.chutren{
+	width: 100%;
+	height: 50%;
+	background:#B1ABA8;
+	
+	
+}
+
+.chutren p{
+	text-align: center;
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+	padding:5%;
+ 
+	
+}
+.chutren h1{
+	color: black;
+	margin: 0px;
+	padding-left: 300px;
+	padding-top: 350px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 42px;
+	
+}
+.trang4{
+	width: 100%;
+	height: 100vh;
+	background: #6642E1;
+}
+.nen4tren{
+	width: 100%;
+	height: 50%;
+	
+}
+.nen4tren img{
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+}
+.nen4duoi{
+	width: 100%;
+	height: 50%;
+
+}
+.nen4duoi img{
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+}
+.duoitrai4{
+	width: 50%;
+	height: 100%;
+	background: #FAFAFA;
+	float: left;
+}
+.duoiphai4{
+	width: 50%;
+	height: 100%;
+	background: #FFFFFF;
+	float: right;
+}
+.trai4{
+	width: 50%;
+	height: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+.phai4{
+	width: 50%;
+	height: 100%;
+	background: #FFFFFF;
+	float: right
+}
+.footer{
+	width: 100%;
+	height: 140px;
+	background:#000000;
+}
+.footertrai{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.footertrai h1{
+	font-size: 19px;
+    
+	color: aliceblue;
+	
+}
+.footertrai p{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 9px;
+    text-align: justify;
+    color:aliceblue;
+
+
+}
+.footerphai{
+	width: 50px;
+	height: 100%;
+	float: right;
+}
+
+
+
+
+
+
+.wow:first-child {
+      visibility: hidden;
+}
